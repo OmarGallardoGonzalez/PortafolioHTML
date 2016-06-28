@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+html{
+    font-family: 'Slabo 27px', serif;
+}
+
 .lateral{
     position:fixed;
     top:0;
@@ -62,4 +66,46 @@
     padding: .5em;
 
 
+}
+
+.habilidad--proyecto{
+    background-color: darkslateblue;
+    color:white;
+    display:inline-block;
+    font-size:12px;
+    text-transform: uppercase;
+    padding: .5em;
+
+
+}
+
+
+
+/*proyectos*/
+
+.proyectos{
+    margin-left: 350px;
+   
+    padding: 1em;
+    display: table;
+ 
+}
+
+.proyecto{
+    width:50%;
+    display:table-cell;
+    padding: 1em;
+}
+
+.proyecto__imagen{
+    width: 100%;
+}
+
+.proyecto__titulo{
+    font-size: 18px;
+    color: coral;
+
+}
+.proyecto__descripcion{
+    color: grey;
 }
